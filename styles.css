@@ -1,0 +1,403 @@
+
+
+body {background-color: #1F2841;}
+
+.container-opening-screens
+{
+
+    width: 80%;
+    margin: auto;
+    min-height: 600px;
+    padding-top: 100px;
+}
+
+
+.logo
+{
+    width: 40%;
+    margin: auto;
+    min-height: 100px;
+    padding-bottom: 50px;
+}
+
+
+a
+{
+    text-decoration: none;
+}
+
+.login-button
+{
+    padding: 1px;
+    background-color: #e8eff1;
+    width: 60%;
+    margin: auto;
+    border-radius: 50px;
+    margin-bottom: 20px;
+    border: solid;
+    border-width: 2px;
+    border-color: #2927b9;
+}
+
+
+
+
+.register-button 
+{
+    clear: both;
+    padding: 1px;
+    background-color: #e8eff1;
+    width: 60%;
+    margin: auto;
+    border-radius: 50px;
+    border: solid;
+    border-width: 2px;
+    border-color: #2927b9;
+}
+
+.login-button p
+{
+    color: #2927b9;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.register-button p
+{
+    color: #2927b9;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.register-button:hover {
+    background-color: #2927b9;
+    border-color: #e8eff1;
+  }
+
+.register-button:hover p{
+    color: #e8eff1;
+  }
+
+
+.login-button:hover {
+    background-color: #2927b9;
+    border-color: #e8eff1;
+  }
+
+.login-button:hover p{
+    color: #e8eff1;
+  }
+
+
+/*  Code for the login page starts here */
+
+.forgot-and-register {
+    margin-top: 50px;
+}
+
+
+.forgot-and-register p {
+    color: white;
+    font-family: sans-serif;
+    text-align: center; 
+}
+
+.email-field
+{
+    padding: 1px;
+    background-color: white;
+    width: 80%;
+    margin: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+
+
+
+.password-field
+{
+    clear: both;
+    padding: 1px;
+    background-color: white;
+    width: 80%;
+    margin: auto;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+.password-field p
+{
+    font-family: sans-serif;
+    color: #969faa;
+    margin-left: 10px;
+
+}
+
+.email-field p
+{
+    font-family: sans-serif;
+    color: #969faa;
+    margin-left: 10px;
+}
+
+/*  Code for the register page starts here */
+
+
+.container-later-screens
+{
+    width: 80%;
+    margin: auto;
+    min-height: 600px;
+    padding-top: 25px;
+}
+
+.container-progress-bar
+{
+    width: 100%;
+    
+}
+
+.logo-small
+{
+    width: 16%;
+    margin: auto;
+    min-height: 30px;
+    padding-bottom: 20px;
+}
+
+
+.progress-bar {
+    clear: both;
+    width: 100%;
+    min-height: 20px;
+    padding-bottom: 30px;
+}
+
+
+.done {
+    float: left;
+    width: 10%;
+    margin-right: 5%;
+    background-color: #9493dc;
+    height: 15px;
+
+}
+
+.remaining {
+    float: left;
+    width: 10%;
+    margin-right: 5%;
+    background-color: #9493dc;
+    height: 5px;
+}
+
+.final-remaining {
+    float: left;
+    width: 10%;
+    background-color: #9493dc;
+    height: 5px;
+}
+
+
+.final-done {
+    float: left;
+    width: 10%;
+    background-color: #9493dc;
+    height: 15px;
+}
+
+
+
+
+.continue-button
+{
+    padding: 1px;
+    background-color: #e8eff1;
+    width: 60%;
+    margin: auto;
+    border-radius: 50px;
+    margin-bottom: 20px;
+    border: solid;
+    border-width: 2px;
+    border-color: #2927b9;
+}
+
+.continue-button p
+{
+    font-family: sans-serif;
+    color: #2927b9;
+    text-align: center;
+}
+
+.continue-button:hover {
+    background-color: #2927b9;
+    border-color: #e8eff1;
+}
+
+.continue-button:hover p{
+    color: #e8eff1;
+}
+
+
+input[type=text], input[type=password] 
+{
+    padding: 1px;
+    background-color: white;
+    width: 100%;
+    margin: auto;
+    min-height: 30px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    
+}
+
+input{
+
+    text-indent: 10px;
+}
+
+input:focus {
+    box-shadow: 0px 0px 5px 5px #1998D5;
+      
+    /* Visible in Windows high-contrast themes */
+    outline-color: transparent;
+    outline-width: 2px;
+    outline-style: dotted;
+    }
+
+
+/*  Code for the plan page starts here */
+
+h1, h2, h3, p {
+color: white;
+font-family: sans-serif
+}
+
+/*  What option-monthly looks like */
+
+.option-monthly {
+    width: 100%;
+    min-height: 75px;
+    background-color: white;
+    border-radius: 20px;
+    border: solid;
+    border-width: 2px;
+    border-color: white;
+    margin-bottom: 20px;
+}
+
+.option-monthly h1 {
+    color: black;
+    text-align: center;
+    text-align: right;
+    margin-right: 25px;
+}
+
+.option-monthly h2 {
+    color: black;
+}
+
+.option-monthly h3 {
+    color: black;
+    margin-bottom: -15px;
+}
+
+.option-monthly p {
+    color: black;
+}
+
+/*  What option-monthly looks like on the hover */
+
+.option-monthly:hover {
+    background-color: #9493dc;
+    border-color: white;
+}
+
+.option-monthly:hover h1 {
+    color: white;
+}
+
+.option-monthly:hover h2 {
+    color: white;
+}
+
+.option-monthly:hover h3 {
+    color: white;
+}
+
+.option-monthly:hover p {
+    color: white;
+}
+/*  What option-annual looks like */
+
+.option-annual {
+    width: 100%;
+    min-height: 75px;
+    background-color: white;
+    border-radius: 20px;
+    border: solid;
+    border-width: 2px;
+    border-color: white;
+    margin-bottom: 20px;
+}
+
+.option-annual h1 {
+    color: black;
+    text-align: right;
+    margin-right: 25px;
+}
+
+.option-annual h2 {
+    color: black;
+}
+
+.option-annual h3 {
+    color: black;
+    margin-bottom: -15px;
+}
+
+.option-annual p {
+    color: black;
+}
+
+/*  What option-annual looks like on the hover */
+
+.option-annual:hover {
+    background-color: #9493dc;
+    color: white;
+    border-color: white;
+}
+
+.option-annual:hover {
+    background-color: #9493dc;
+    color: white;
+}
+
+.option-annual:hover h1 {
+    color: white;
+}
+
+.option-annual:hover h2 {
+    color: white;
+}
+
+.option-annual:hover h3 {
+    color: white;
+}
+
+.option-annual:hover p {
+    color: white;
+}
+
+
+.left {
+    float: left;
+    width: 50%;
+}
+
+.right {
+    float: left;
+    width: 50%;
+}
+
